@@ -12,11 +12,10 @@ import PricusComponent from './svgInfoComponent/pricusComponent';
 const Descriptions = () => {
     return (
         <div>
-
-            <section class="text-gray-600 body-font bg-slate-200">
-                <div class="container px-5 py-4 mx-auto">
+            <section class="text-gray-600 body-font bg-slate-100">
+                <div class="container py-24 mx-auto">
                     <div class="flex flex-col text-center w-full">
-                        <h1 class="sm:text-4xl text-2xl font-medium title-font mb-4 text-gray-900">
+                        <h1 class="sm:text-4xl text-2xl font-medium title-font mb-16 text-gray-900">
                             Оказываем широкий спектр стоматологических услуг</h1>
                     </div>
                     <div class="flex flex-col md:flex-row">

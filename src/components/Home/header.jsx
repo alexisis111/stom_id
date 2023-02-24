@@ -5,7 +5,7 @@ import Descriptions from './descriptions';
 const Header = () => {
     return (
         <div>
-            <div className="relative w-full h-full bg-no-repeat bg-cover bg-center bg-gradient-to-r from-blue-500 to-cyan-400  ">
+            <div className="relative w-full h-full bg-no-repeat bg-cover bg-center bg-gradient-to-r from-blue-500 to-cyan-400">
                 <div className='container mx-auto flex flex-col md:flex-row '>
                     <section class=" body-font basis-1/2 flex text-center ml-0 md:ml-20">
                         <div class="container m-auto ">

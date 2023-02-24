@@ -1,6 +1,6 @@
 import React from 'react';
 import './slider.css'
-import main from '../../assets/main.jpg'
+
 import main1 from '../../assets/main1.jpg'
 import main2 from '../../assets/main2.jpg'
 
@@ -33,9 +33,7 @@ const Slider = () => {
             </div>
             <div className="carousel-inner relative  overflow-hidden">
                 <div className="carousel-item active relative float-left w-full h-full bg-no-repeat bg-cover bg-center ">
-                    <div className='container mx-auto'>
-                        <img src={main} alt="" />
-                    </div>
+                    <img className='changes1 w-full' src={main1} alt="" />
                 </div>
                 <div className="carousel-item relative float-left w-full h-full bg-no-repeat bg-cover bg-center">
                     <img className='changes1 w-full' src={main1} alt="" />
