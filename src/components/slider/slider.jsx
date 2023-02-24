@@ -1,6 +1,5 @@
 import React from 'react';
 import './slider.css'
-import MainDescription from './slide1/mainDescription';
 import main from '../../assets/main.jpg'
 import main1 from '../../assets/main1.jpg'
 import main2 from '../../assets/main2.jpg'
@@ -35,30 +34,14 @@ const Slider = () => {
             <div className="carousel-inner relative  overflow-hidden">
                 <div className="carousel-item active relative float-left w-full h-full bg-no-repeat bg-cover bg-center ">
                     <div className='container mx-auto'>
-                        <iframe width="100%" height="500px" src="https://www.youtube.com/embed/kcpe4kqZaKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <img src={main} alt="" />
                     </div>
-
-                    {/* <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bc_rgba">
-                        <div className="flex justify-center items-center h-full">
-                            <MainDescription />
-                        </div>
-                    </div> */}
                 </div>
                 <div className="carousel-item relative float-left w-full h-full bg-no-repeat bg-cover bg-center">
                     <img className='changes1 w-full' src={main1} alt="" />
-                    <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bc_rgba">
-                        <div className="flex justify-center items-center h-full">
-                            <MainDescription />
-                        </div>
-                    </div>
                 </div>
                 <div className="carousel-item relative float-left w-full h-full bg-no-repeat bg-cover bg-center">
                     <img className='changes2 w-full' src={main2} alt="" />
-                    <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bc_rgba">
-                        <div className="flex justify-center items-center h-full">
-                            <MainDescription />
-                        </div>
-                    </div>
                 </div>
             </div>
             <button
