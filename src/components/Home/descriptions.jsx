@@ -21,7 +21,6 @@ const Descriptions = () => {
                 <div class="container px-5 py-4 mx-auto">
                     <div class="flex flex-col text-center w-full">
                         <h1 class="sm:text-4xl text-2xl font-medium title-font mb-4 text-gray-900">
-                            Тестовый коммит
                             Оказываем широкий спектр стоматологических услуг</h1>
                         {/* <p class="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
                         <p class="lg:w-2/3 mx-auto leading-relaxed text-base"></p> */}
