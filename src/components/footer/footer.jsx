@@ -13,7 +13,7 @@ const Footer = () => {
                         <a href="https://vk.com/stom_id_clinic" target="blank"><i
                             class="ml-6 text-gray-500 hover:text-blue-500 fa fa-vk fa-2x blue-text text-darken-2"></i></a>
                         <a href="tel:+79995127310" target="blank"><i
-                            class="ml-6 text-gray-500 hover:text-white fa fa-mobile fa-2x green-text text-darken-2"></i></a>
+                            class="ml-6 text-gray-500 hover:text-my fa fa-mobile fa-2x green-text text-darken-2"></i></a>
                     </span>
                 </div>
             </div>

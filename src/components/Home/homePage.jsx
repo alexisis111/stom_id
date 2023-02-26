@@ -2,7 +2,8 @@ import React from 'react';
 import SliderComponent from '../slider/sliderComponent';
 import Descriptions from './descriptions';
 import Header from './header';
-import Maps from './maps/maps';
+import Maps2 from './Maps/maps2';
+
 
 const HomePage = () => {
     return (
@@ -10,7 +11,7 @@ const HomePage = () => {
             <Header />
             <Descriptions />
             <SliderComponent/>
-            <Maps />
+            <Maps2 />
         </>
     );
 }
