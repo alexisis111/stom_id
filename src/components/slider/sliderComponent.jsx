@@ -12,16 +12,8 @@ const SliderComponent = () => {
                 <div class="flex flex-wrap -m-12">
                     <div class="p-12 md:w-1/2 flex flex-col items-start">
                         <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Roof party normcore before they sold out, cornhole vape</h2>
+                        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">для просмотра нажмите на изображение</span>
                         <SliderTailwind />
-                        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">CATEGORY</span>
-                        <a class="inline-flex items-center">
-                            <img alt="blog" src="https://dummyimage.com/104x104" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
-                            <span class="flex-grow flex flex-col pl-4">
-                                <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
-                                <span class="text-gray-400 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>
-                            </span>
-                        </a>
-
                         <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably haven't heard of them hexagon kickstarter craft beer pork chic.</p>
                     </div>
                     <div class="p-12 md:w-1/2 flex flex-col items-start">

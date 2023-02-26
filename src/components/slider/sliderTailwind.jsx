@@ -6,6 +6,7 @@ import main2 from '../../assets/main2.jpg'
 
 
 const SliderTailwind = () => {
+
     return (
         <div id="carouselExampleCaptionsFull" className="carousel slide carousel-fade relative h-full"
             data-bs-ride="carousel">
@@ -14,7 +15,7 @@ const SliderTailwind = () => {
                     type="button"
                     data-bs-target="#carouselExampleCaptionsFull"
                     data-bs-slide-to="0"
-                    className="active"
+                    className="active rouned-full"
                     aria-current="true"
                     aria-label="Slide 1"
                 ></button>
@@ -33,13 +34,13 @@ const SliderTailwind = () => {
             </div>
             <div className="carousel-inner relative  overflow-hidden">
                 <div className="carousel-item active relative float-left w-full h-full bg-no-repeat bg-cover bg-center ">
-                    <img data-fancybox="gallery" className='changes1 w-full' src={main1} alt="" />
+                    <img data-fancybox="gallery" data-caption="Caption #1" className='changes1 w-full' src={main1} alt="" />
                 </div>
                 <div className="carousel-item relative float-left w-full h-full bg-no-repeat bg-cover bg-center">
-                    <img data-fancybox="gallery" className='changes1 w-full' src={main1} alt="" />
+                    <img data-fancybox="gallery" data-caption="Caption #2" className='changes1 w-full' src={main1} alt="" />
                 </div>
                 <div className="carousel-item relative float-left w-full h-full bg-no-repeat bg-cover bg-center">
-                    <img data-fancybox="gallery" className='changes2 w-full' src={main2} alt="" />
+                    <img data-fancybox="gallery" data-caption="Caption #3" className='changes2 w-full' src={main2} alt="" />
                 </div>
             </div>
             <button
