@@ -1,3 +1,5 @@
+
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -6,7 +8,11 @@ module.exports = {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'my': '#3CC2C3',
+      },
+    },
   },
   plugins: [
     require('tw-elements/dist/plugin')

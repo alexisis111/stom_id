@@ -12,26 +12,41 @@ import PricusComponent from './svgInfoComponent/pricusComponent';
 const Descriptions = () => {
     return (
         <div>
-            <section class="text-gray-600 body-font bg-slate-100">
-                <div class="container py-24 mx-auto">
-                    <div class="flex flex-col text-center w-full">
-                        <h1 class="sm:text-4xl text-2xl font-medium title-font mb-16 text-gray-900">
-                            Оказываем широкий спектр стоматологических услуг</h1>
-                    </div>
-                    <div class="flex flex-col md:flex-row">
-                        <InspectionComponent />
-                        <HugieneComponent />
-                        <TreatmentComponent />
-                        <SurgeryComponent />
-                    </div>
-                    <div class="flex flex-col md:flex-row">
-                        <ParadontalComponent />
-                        <ImplantationComponent />
-                        <ProstheticsComponent />
-                        <PricusComponent />
-                    </div>
+            {/* <div class="w-full bg-slate-50">
+                <div className='bg-repeat flex flex-row opacity-20'>
+                    <div className=" bg-[url('./assets/svgEL/1.svg')] w-[64px] h-[64px] skew-x-12"></div>
+                    <div className="bg-[url('./assets/svgEL/2.svg')] w-[64px] h-[64px] skew-x-12"></div>
+                    <div className="bg-[url('./assets/svgEL/3.svg')] w-[64px] h-[64px] skew-x-12"></div>
+                    <div className="bg-[url('./assets/svgEL/4.svg')] w-[64px] h-[64px] skew-x-12"></div>
+                    <div className="bg-[url('./assets/svgEL/5.svg')] w-[64px] h-[64px] skew-x-12"></div>
+                    <div className="bg-[url('./assets/svgEL/6.svg')] w-[64px] h-[64px] skew-x-12"></div>
+                    <div className="bg-[url('./assets/svgEL/7.svg')] w-[64px] h-[64px] skew-x-12"></div>
+                    <div className="bg-[url('./assets/svgEL/8.svg')] w-[64px] h-[64px] skew-x-12"></div>
+                    <div className="bg-[url('./assets/svgEL/9.svg')] w-[64px] h-[64px] skew-x-12"></div>
                 </div>
-            </section>
+            </div> */}
+            <div className="bg-[url('./assets/Screenshot_1.jpg')] -mb-10">
+                <section class="text-gray-600 body-font">
+                    <div class="container py-10 mx-auto">
+                        <div class="text-center">
+                            <h1 class="sm:text-4xl text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-my to-blue-500 pb-10">
+                                Оказываем широкий спектр стоматологических услуг</h1>
+                        </div>
+                        <div class="flex flex-col md:flex-row">
+                            <InspectionComponent />
+                            <HugieneComponent />
+                            <TreatmentComponent />
+                            <SurgeryComponent />
+                        </div>
+                        <div class="flex flex-col md:flex-row">
+                            <ParadontalComponent />
+                            <ImplantationComponent />
+                            <ProstheticsComponent />
+                            <PricusComponent />
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
     );
 }

@@ -5,11 +5,11 @@ import main1 from '../../assets/main1.jpg'
 import main2 from '../../assets/main2.jpg'
 
 
-const Slider = () => {
+const SliderTailwind = () => {
     return (
         <div id="carouselExampleCaptionsFull" className="carousel slide carousel-fade relative h-full"
             data-bs-ride="carousel">
-            <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0">
+            <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center ">
                 <button
                     type="button"
                     data-bs-target="#carouselExampleCaptionsFull"
@@ -33,13 +33,13 @@ const Slider = () => {
             </div>
             <div className="carousel-inner relative  overflow-hidden">
                 <div className="carousel-item active relative float-left w-full h-full bg-no-repeat bg-cover bg-center ">
-                    <img className='changes1 w-full' src={main1} alt="" />
+                    <img data-fancybox="gallery" className='changes1 w-full' src={main1} alt="" />
                 </div>
                 <div className="carousel-item relative float-left w-full h-full bg-no-repeat bg-cover bg-center">
-                    <img className='changes1 w-full' src={main1} alt="" />
+                    <img data-fancybox="gallery" className='changes1 w-full' src={main1} alt="" />
                 </div>
                 <div className="carousel-item relative float-left w-full h-full bg-no-repeat bg-cover bg-center">
-                    <img className='changes2 w-full' src={main2} alt="" />
+                    <img data-fancybox="gallery" className='changes2 w-full' src={main2} alt="" />
                 </div>
             </div>
             <button
@@ -70,4 +70,4 @@ const Slider = () => {
     );
 }
 
-export default Slider;
+export default SliderTailwind;
