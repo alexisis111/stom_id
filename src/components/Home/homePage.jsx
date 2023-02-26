@@ -2,7 +2,7 @@ import React from 'react';
 import SliderComponent from '../slider/sliderComponent';
 import Descriptions from './descriptions';
 import Header from './header';
-import YandexMaps from './Maps/yandexMaps';
+import Maps from './maps/maps';
 
 const HomePage = () => {
     return (
@@ -10,7 +10,7 @@ const HomePage = () => {
             <Header />
             <Descriptions />
             <SliderComponent/>
-            <YandexMaps />
+            <Maps />
         </>
     );
 }

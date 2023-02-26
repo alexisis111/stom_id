@@ -1,7 +1,7 @@
 import React from 'react';
 import we from '../../../assets/we.jpg'
 
-const YandexMaps = () => {
+const Maps = () => {
     return (
         <>
             <div className='mx-auto '>
@@ -35,4 +35,4 @@ const YandexMaps = () => {
     );
 }
 
-export default YandexMaps;
+export default Maps;
