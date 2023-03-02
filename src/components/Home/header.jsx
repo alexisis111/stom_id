@@ -10,11 +10,10 @@ const Header = () => {
                     <section class=" body-font basis-1/2 flex text-center ml-0 md:ml-20">
                         <div class="container m-auto ">
                             <div class="flex flex-col w-full text-center">
-                                <p className='text-center text-2xl text-white'>Стоматологическая клиника</p>
-                                <div className='flex flex-row  leading-relaxed mx-auto md:text-4xl text-2xl text-white animate-pulse'>
-                                    <h1 class="md:text-9xl text-7xl title-font mb-4 underline decoration-my font-extrabold text-slate-200 drop-shadow-md">Stom</h1>id
+                                <p className='text-center text-2xl text-white italic'>Стоматологическая клиника</p>
+                                <div className='flex flex-row  leading-relaxed mx-auto md:text-4xl text-2xl text-white animate-pulse '>
+                                    <h1 class="md:text-9xl text-7xl title-font mb-4 underline decoration-my font-extrabold text-slate-200 drop-shadow-md animate__animated animate__flipInX animate__infinite	animate__slower	">Stom</h1>id
                                 </div>
-                                <p className='text-center text-2xl text-white'>Для Вас много учимся и много работаем!</p>
                             </div>
                         </div>
                     </section>

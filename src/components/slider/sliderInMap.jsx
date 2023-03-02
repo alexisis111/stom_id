@@ -1,8 +1,7 @@
 import React from 'react';
 import './slider.css'
-
-import main1 from '../../assets/main1.jpg'
-import main2 from '../../assets/main2.jpg'
+import adress from '../../assets/adress.jpg'
+import fasad from '../../assets/fasad.jpeg';
 
 
 const SliderTailwind = () => {
@@ -25,22 +24,13 @@ const SliderTailwind = () => {
                     data-bs-slide-to="1"
                     aria-label="Slide 2"
                 ></button>
-                <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptionsFull"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                ></button>
             </div>
-            <div className="carousel-inner relative  overflow-hidden">
+            <div className="carousel-inner relative  overflow-hidden rounded-lg">
                 <div className="carousel-item active relative float-left w-full h-full bg-no-repeat bg-cover bg-center ">
-                    <img class="rounded-lg" data-fancybox="gallery" data-caption="Caption #1" className='changes1 w-full' src={main1} alt="" />
+                    <img class="rounded-lg" className='changes1 w-full' src={adress} alt="" />
                 </div>
                 <div className="carousel-item relative float-left w-full h-full bg-no-repeat bg-cover bg-center">
-                    <img class="rounded-lg" data-fancybox="gallery" data-caption="Caption #2" className='changes1 w-full' src={main1} alt="" />
-                </div>
-                <div className="carousel-item relative float-left w-full h-full bg-no-repeat bg-cover bg-center">
-                    <img class="rounded-lg" data-fancybox="gallery" data-caption="Caption #3" className='changes2 w-full' src={main2} alt="" />
+                    <img class="rounded-lg" className='changes1 w-full' src={fasad} alt="" />
                 </div>
             </div>
             <button

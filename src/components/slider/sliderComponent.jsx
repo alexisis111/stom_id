@@ -1,5 +1,4 @@
 import React from 'react';
-import SliderTailwind from './sliderTailwind';
 import img1 from '../../assets/works/1.jpg';
 import img2 from '../../assets/works/2.jpg';
 import img3 from '../../assets/works/3.jpg';
@@ -13,7 +12,7 @@ const SliderComponent = () => {
     return (
         <section class="text-gray-600 body-font overflow-hidden py-10 bg-[url('./assets/Screenshot_1.jpg')]">
             <div class="container mx-auto">
-                <h1 class="sm:text-4xl text-2xl text-center pb-10 font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-my to-blue-500 ">
+                <h1 class="sm:text-4xl text-2xl text-center pb-10 font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-my to-blue-500 underline decoration-my">
                     Наши работы</h1>
                 {/* <div class="flex flex-wrap -m-12">
                     <div class="p-12 md:w-1/2 flex flex-col items-start">

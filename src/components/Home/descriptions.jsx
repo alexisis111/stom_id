@@ -29,16 +29,16 @@ const Descriptions = () => {
                 <section class="text-gray-600 body-font">
                     <div class="container py-10 mx-auto">
                         <div class="text-center">
-                            <h1 class="sm:text-4xl text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-my to-blue-500 pb-10">
+                            <h1 class="sm:text-4xl text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-my to-blue-500 pb-10 underline decoration-my">
                                 Оказываем широкий спектр стоматологических услуг</h1>
                         </div>
-                        <div class="flex flex-col md:flex-row">
+                        <div class="flex flex-col md:flex-row ">
                             <InspectionComponent />
                             <HugieneComponent />
                             <TreatmentComponent />
                             <SurgeryComponent />
                         </div>
-                        <div class="flex flex-col md:flex-row">
+                        <div class="flex flex-col md:flex-row ">
                             <ParadontalComponent />
                             <ImplantationComponent />
                             <ProstheticsComponent />
