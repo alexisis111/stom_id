@@ -1,7 +1,8 @@
 import React from 'react';
-import Slider from "./components/slider/slider"
 import { Navbar } from "./components/nav/navbar"
-import Header from "./components/Home/header";
+import Footer from './components/footer/footer';
+import HomePage from './components/Home/homePage';
+
 
 
 
@@ -9,8 +10,8 @@ function App() {
     return (
         <>
             <Navbar />
-            <Header />
-            {/* <Slider/> */}
+            <HomePage />
+            <Footer />
         </>
     );
 }
